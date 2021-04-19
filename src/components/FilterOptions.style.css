@@ -1,0 +1,26 @@
+#filterTable {
+  width: 100%;
+  position: relative;
+  z-index: 999;
+}
+
+#filterTable::before {
+  content: "";
+  top: -20%;
+  position: absolute;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+}
+
+#filterFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1fr 1fr;
+}
+
+#filterFooter > label {
+  font-size: 10px;
+  width: 50%;
+}
